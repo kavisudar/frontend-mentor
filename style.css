@@ -1,0 +1,31 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family:sans-serif
+}
+h4{
+    padding: 10px;
+}
+.value{
+    background-color: rgb(81, 78, 78);
+    width: 80%;
+    border-radius: 5px;
+    margin: 10px;
+    height: 35px;
+}
+.value:hover{
+    background-color: rgb(150, 229, 70);
+}
+@media screen and (max-width:450px) {
+    #inner{
+        margin: 30% 0% 30% 0%;
+        width: 80%;
+    }
+}
+#bio{
+    color: white;
+}
+#bio a {
+    text-decoration: none;
+    color:violet
+}
